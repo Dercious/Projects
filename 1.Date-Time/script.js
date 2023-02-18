@@ -3,7 +3,7 @@ var date = new Date();
 var TodayDate = document.getElementById('date');
 var TodayDay = document.getElementById('day');
 var TodayTime = document.getElementById('time');
-var noofdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", , "Saturday"];
+var noofdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function CurrentDate() {
     var day = date.getDate();
@@ -12,6 +12,7 @@ function CurrentDate() {
     TodayDate.innerHTML = day + "/" + month + "/" + year;
 }
 CurrentDate();
+
 function CurrentDay() {
     var day = noofdays[date.getDay()];
     TodayDay.innerHTML = day;
