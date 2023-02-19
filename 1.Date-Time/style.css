@@ -4,9 +4,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background: url(https://picsum.photos/1920/1020);
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -16,5 +13,5 @@ body{
 
 #day{
     padding:50px 0;
-    color: rgb(31, 25, 18);
+    color: rgb(252, 0, 0);
 }

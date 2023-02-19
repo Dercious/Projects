@@ -47,3 +47,15 @@ function CurrentTime() {
 }
 CurrentTime();
 
+// ---------Background----
+function Image(){
+    document.body.style.background = "url('https://picsum.photos/1920/1020')";
+    setTimeout(()=>{
+        Image()
+    },10000)
+}
+Image();
+
+setTimeout(() => {
+    document.location.reload();
+  },10000);
