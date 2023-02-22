@@ -1,0 +1,284 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+    background-color: rgb(233, 20, 109);
+}
+/* ---------Main------- */
+.mainpage {
+    background: url(Deri\ b&w.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height:88vh;
+}
+
+.mainpage h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.mainpage h6 {
+    color: rgb(31, 166, 184);
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 60%;
+}
+
+.mainpage .bt1 {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(233, 20, 109);
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.mainpage .bt1:hover {
+    background-color: rgb(162, 16, 77);
+    transition: 0.5s;
+}
+
+.mainpage .bt2 {
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.mainpage .bt2:hover {
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: aliceblue;
+}
+/* ------About------ */
+
+.about img {
+    height: 80vh;
+    -webkit-box-shadow: -38px -15px 73px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -38px -15px 73px -16px rgba(0,0,0,0.75);
+box-shadow: -38px -15px 73px -16px rgba(0,0,0,0.75);
+}
+.about .h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.progress {
+    background-color: rgb(225, 218, 218);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    
+    -webkit-box-shadow: inset 2px 3px 86px -37px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 2px 3px 86px -37px rgba(0,0,0,0.75);
+    box-shadow: inset 2px 3px 86px -37px rgba(0,0,0,0.75);
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 5px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:95%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:98%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:50%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition:0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color:black;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition:0.5s;
+}
+
+.card{
+    
+    -webkit-box-shadow: -81px 58px 124px -110px rgba(0,0,0,0.75);
+-moz-box-shadow: -81px 58px 124px -110px rgba(0,0,0,0.75);
+box-shadow: -81px 58px 124px -110px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(229, 201, 201);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.circle:hover {
+    background-color:rgb(233, 20, 109);
+    color: white;
+    transition: 0.5s;
+}
+
+/* portfolio */
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.item{
+    position: relative;
+}
+.item:hover {
+    -webkit-box-shadow: -6px 17px 57px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 17px 57px 2px rgba(0,0,0,0.75);
+box-shadow: -6px 17px 57px 2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item:before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(235, 233, 225, 0.569);
+    opacity: 0;
+    position: absolute;
+}
+.item:hover:before{
+    opacity: 1;
+    transition: 0.3s;
+}
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background: transparent;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+/* ---------css for small screen------- */
+
+@media only screen and (max-width: 600px) {
+      
+  }
