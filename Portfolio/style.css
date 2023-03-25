@@ -14,7 +14,7 @@ scroll-behavior: smooth;
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height:88vh;
+    height:85vh;
 }
 
 .mainpage h3 {
@@ -277,8 +277,14 @@ footer{
     background-color: black;
     color: white;
 }
-/* ---------css for small screen------- */
 
-@media only screen and (max-width: 600px) {
-      
+#msg{
+    color: rgb(133, 205, 25);
+    display: block;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+     
   }
