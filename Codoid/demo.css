@@ -35,10 +35,7 @@ header {
     height: 100vh;
     padding: 30px;
 }
-header img {
-	height: 80px;
-    
-}
+
 nav{
     font-weight: 600;
     display: flex;
@@ -56,6 +53,10 @@ nav ul {
 
 nav li {
 	margin-left: 2rem;
+}
+
+nav img {
+	height: 80px;   
 }
 
 main {
@@ -339,11 +340,16 @@ footer{
 /* Media Queries */
 @media screen and (max-width: 767px) {
 	header {
-		padding: 1rem;
+		padding: 1rem;		
 	}
 
 	nav li {
-		margin-left: 1rem;
+		font-size: small;
+		margin-left: 0.5rem;
+	}
+	nav img{
+		width: 15%;
+		height: 30%;
 	}
 
 	.hero h1 {
